@@ -1,0 +1,37 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+
+# next.js
+/.next/
+/out/
+next-env.d.ts
+
+# production
+/build
+
+# runtime assets copied from node_modules (see scripts/setup-assets.mjs)
+/public/pdf.worker.min.mjs
+/public/runtime-versions.json
+
+# testing / tooling
+/coverage
+/.vitest
+/playwright-report
+/test-results
+*.tsbuildinfo
+
+# env
+.env
+.env*.local
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
+yarn-error.log*
+.vercel
+
+# verification output (npm run verify regenerates it)
+/artifacts/
