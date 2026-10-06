@@ -1,0 +1,12 @@
+{
+  "name": "AeroText Studio — PDF & image text editor",
+  "short_name": "AeroText",
+  "description": "Detect, erase and replace text inside images and PDFs, entirely in your browser.",
+  "start_url": "/edit",
+  "display": "standalone",
+  "background_color": "#f6f7fb",
+  "theme_color": "#4a45e0",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
